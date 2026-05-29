@@ -20,7 +20,7 @@ pip install fly-lang
 
 ### Kaynaktan
 ```bash
-git clone https://github.com/YOUR_USERNAME/fly-lang.git
+git clone https://github.com/ThT0AltayHR/Fly-lang.git
 cd fly-lang
 pip install -e .
 ```
