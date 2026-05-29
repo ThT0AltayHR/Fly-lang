@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "fly-lang"
+version = "1.0.0"
+description = "Fly - A professional Python-powered scripting language with Kali Linux tool integration"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["fly", "language", "interpreter", "kali", "security", "scripting"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Software Development :: Interpreters",
+    "Topic :: Security",
+]
+
+[project.scripts]
+fly = "fly.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/fly-lang"
+Issues = "https://github.com/YOUR_USERNAME/fly-lang/issues"
